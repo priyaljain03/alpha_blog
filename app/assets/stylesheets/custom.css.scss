@@ -25,12 +25,12 @@ $navbar-default-bg: Black;
 }
 
 .jumbotron{
-    background-image: asset-url('typewriter-801921_960_720.jpg');
+    background-image: asset-url('rawpixel-679094-unsplash.jpg');
     background-size: cover;
-    height: 550px;
+    height: 700px;
 }
 .jumbotron h1{
-    color: #fff;
+    color: Black;
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: -1px;
@@ -66,5 +66,16 @@ footer ul li{
     float: left;
     margin-left: 15px;
 }
+
+.article-actions{
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.description{
+    margin-top: 0;
+}
+
+
 
 
