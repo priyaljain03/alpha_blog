@@ -1,4 +1,4 @@
-$navbar-default-bg:#f45f42;
+$navbar-default-bg: Black;
 
 
 @import "bootstrap-sprockets";
@@ -15,25 +15,26 @@ $navbar-default-bg:#f45f42;
 }
 
 #logo :hover {
-    color:#fffaf9;
-    text-decoration:none;
+    color: #fffaf9;
+    text-decoration: none;
 }
 
 .center{
-    text-align:center;
+    text-align: center;
 
 }
 
 .jumbotron{
     background-image: asset-url('typewriter-801921_960_720.jpg');
     background-size: cover;
-    height:550px;
+    height: 550px;
 }
 .jumbotron h1{
-    text-align:center;
-    margin-bottom:30px;
-    letter-spacing:-1px;
-    font-weight:bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
 }
 
 .btn-xlrg{
@@ -42,8 +43,8 @@ $navbar-default-bg:#f45f42;
 }
 
 footer{
-    margin-top:45px;
-    padding-top:5px;
+    margin-top: 45px;
+    padding-top: 5px;
     border-top: 1px solid #eaeaea;
     color: #777;
 }
