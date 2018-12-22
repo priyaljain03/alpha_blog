@@ -7,6 +7,9 @@ Rails.application.routes.draw do
 
 root 'articles#home'
 get 'articles/about',to: 'articles#about'
+
+get 'signup',to: 'users#new'
+resources :users, except: [:new]
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
